@@ -5,7 +5,6 @@ Author: Your Name
 Developer @GA in NYC
 */
 
-
 /******************************************
 /* SETUP
 /*******************************************/
@@ -17,7 +16,7 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
-/* Clear fix hack */
+/* clear fix hack */
 .clearfix:after {
      content: ".";
      display: block;
@@ -43,7 +42,7 @@ Developer @GA in NYC
 
 /******************************************
 /* BASE STYLES
-/*******************************************/
+/******************************************/
 
 body {
      color: #000;
@@ -52,19 +51,18 @@ body {
      font-family: Helvetica, Arial, sans-serif;
 }
 
-
 /******************************************
 /* LAYOUT
-/*******************************************/
+/******************************************/
 
-/* Center the container */
+/* center the container */
 #container {
-  width: 960px;
-  margin: auto;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 header {
-
+    max-width: 960px;
 }
 
 footer {
@@ -75,6 +73,18 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+h1 {
+    
+}
 
+.section1 {
+    max-width: 700px;
+    margin: 0px 10px 40px 120px;
+    float: left; 
+}
 
-
+.aside {
+    max-width: 240px;
+    margin: 0px 120px 40px 10px;
+    float: right;
+}
