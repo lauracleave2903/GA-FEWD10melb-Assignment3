@@ -1,12 +1,13 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800,800italic,700italic' rel='stylesheet' type='text/css'>
-
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
 
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
+
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -17,6 +18,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -36,6 +38,7 @@ html {
     text-shadow: none;
 }
 
+
 /*
  * A better looking default horizontal rule
  */
@@ -48,6 +51,7 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
 
 /*
  * Remove the gap between audio, canvas, iframes,
@@ -64,6 +68,7 @@ video {
     vertical-align: middle;
 }
 
+
 /*
  * Remove default fieldset styles.
  */
@@ -74,6 +79,7 @@ fieldset {
     padding: 0;
 }
 
+
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -81,6 +87,7 @@ fieldset {
 textarea {
     resize: vertical;
 }
+
 
 /* ==========================================================================
    Browser Upgrade Prompt
@@ -93,21 +100,25 @@ textarea {
     padding: 0.2em 0;
 }
 
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
+
 /* center the container */
+
 #container {
     width: 1200px;
     margin: 0 auto;
 }
 
+
 /* about page */
 
 #about-header {
     background: url(../img/header_bg.jpg) no-repeat center top;
-    height: 700px;
+    min-height: 700px;
     padding: 0 90px 0 90px;
     text-align: center;
 }
@@ -117,7 +128,7 @@ textarea {
     font-weight: 800;
     font-size: 48px;
     line-height: 1;
-    text-align: left; 
+    text-align: left;
     color: #ffffff;
     padding: 35px 0 100px 30px;
 }
@@ -149,6 +160,10 @@ textarea {
     cursor: pointer;
 }
 
+#about-header a:hover {
+    color: #ffffff;
+}
+
 #about-main {
     background-color: #efefee;
     padding: 85px 90px 80px 90px;
@@ -162,7 +177,7 @@ h2 {
     font-family: "Open Sans", Helvetica, sans-serif;
     font-weight: 600;
     font-size: 40px;
-    text-align: left; 
+    text-align: left;
     color: #043049;
     margin: 0 0 20px 0;
 }
@@ -171,7 +186,7 @@ h2 {
     font-family: "Open Sans", Helvetica, sans-serif;
     font-weight: 300;
     font-size: 24px;
-    text-align: left; 
+    text-align: left;
     color: #606161;
     margin: 0 0 50px 0;
     padding: 0 60px 0 0;
@@ -181,14 +196,14 @@ h2 {
     font-family: "Open Sans", Helvetica, sans-serif;
     font-weight: 300;
     font-size: 24px;
-    text-align: left; 
+    text-align: left;
     color: #606161;
     margin: 0 80px 0 70px;
 }
 
 .about-section2 {
     background: url(../img/testimonial_bg.jpg) no-repeat center top;
-    height: 394px;
+    min-height: 394px;
     padding: 0 90px 0 90px;
 }
 
@@ -197,165 +212,15 @@ h2 {
     font-weight: 300;
     font-style: italic;
     font-size: 36px;
-    text-align: center; 
+    text-align: center;
     color: #ffffff;
     margin: 0;
-    padding: 75px 200px 85px 200px;
+    padding: 70px 200px 70px 200px;
 }
 
 .about-section2 blockquote .blockquote-bold {
     font-family: "Open Sans", Helvetica, sans-serif;
     font-weight: 600;
-}
-
-/* blog page */
-
-#blog-header {
-    background-color: #043049;
-    padding: 0 90px 0 90px;
-}
-
-#blog-header .logo {
-    float: left;
-    font-family: "Open Sans", Helvetica, sans-serif;
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 1;
-    text-align: left; 
-    color: #ffffff;
-    padding: 35px 0 0 30px;
-}
-
-nav {
-    text-align: right;
-    padding: 50px 30px 50px 0;
-}
-
-nav ul {
-    padding: 0;
-    margin: 0;
-}
-
-nav li {
-    font-family: "Open Sans", Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1;
-    list-style: none;
-    display: inline;
-    margin: 0 0 0 45px;
-}
-
-nav ul li a {
-    text-decoration: none; 
-    color: #f9e42e;
-}
-
-nav ul li span:first-child {
-    text-transform: uppercase;
-}
-
-#blog-main {
-    background-color: #efefee;
-    padding: 85px 90px 80px 90px;
-}
-
-.column1 {
-    float: left;
-}
-
-.article1,
-.article2 {
-    max-width: 700px;
-    padding: 0 0 0 30px;
-}
-
-article img {
-    margin: 0 0 32px 0;
-}
-
-p {
-    font-family: "Open Sans", Helvetica, sans-serif;
-    font-weight: 300;
-    font-size: 24px;
-    text-align: left; 
-    color: #606161;
-    margin: 0;
-}
-
-p span:first-child {
-    font-weight: 600;
-    font-size: 78px;
-    line-height: 1;
-    float: left;
-    margin: 0 10px 0 0;
-}
-
-article .readmore {
-    font-family: "Open Sans", Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    text-align: right; 
-    color: #043049;
-    margin: 60px 0 0 0;
-}
-
-.readmore a {
-    text-decoration: none;
-    color: #043049;
-}
-
-hr {
-    margin: 40px 0 40px 0;
-}
-
-aside {
-    max-width: 240px;
-    padding: 0 0 0 20px;
-    float: left;
-}
-
-h3 {
-    font-family: "Open Sans", Helvetica, sans-serif;
-    font-weight: 800;
-    font-size: 32px;
-    text-align: left; 
-    color: #043049;
-    margin: 0 0 15px 0;
-}
-
-.aside1 ul {
-    font-family: "Open Sans", Helvetica, sans-serif;
-    font-weight: 300;
-    font-size: 24px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.aside1 ul li a {
-    text-decoration: none; 
-    color: #043049;
-}
-
-.aside1,
-.aside2 {
-    margin: 0 0 45px 0; 
-}
-
-.aside2 p {
-    font-family: "Open Sans", Helvetica, sans-serif;
-    font-weight: 300;
-    font-size: 22px;
-    color: #043049;
-}
-
-.aside2 a {
-    font-family: "Open Sans", Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: 22px;
-    text-decoration: none; 
-    color: #043049;
 }
 
 .signupnow {
@@ -383,6 +248,10 @@ h3 {
     cursor: pointer;
 }
 
+.signupnow a:hover {
+    color: #fae52f;
+}
+
 footer {
     background-color: #121211;
     padding: 60px 90px 60px 90px;
@@ -394,7 +263,7 @@ footer .logo {
     font-weight: 800;
     font-size: 48px;
     line-height: 1;
-    text-align: center; 
+    text-align: center;
     color: #fae52f;
     margin: 0 0 60px 0;
 }
@@ -407,14 +276,179 @@ footer p {
     font-family: "Open Sans", Helvetica, sans-serif;
     font-weight: 600;
     font-size: 18px;
-    text-align: center; 
+    text-align: center;
     color: #ffffff;
     margin: 0;
 }
 
+
+/* blog page */
+
+#blog-header {
+    background-color: #043049;
+    padding: 0 90px 0 90px;
+}
+
+#blog-header .logo {
+    float: left;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1;
+    text-align: left;
+    color: #ffffff;
+    padding: 35px 0 0 30px;
+}
+
+nav {
+    text-align: right;
+    padding: 50px 30px 50px 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1;
+    list-style: none;
+    display: inline;
+    margin: 0 0 0 45px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f9e42e;
+}
+
+nav ul li span:first-child {
+    text-transform: uppercase;
+}
+
+#blog-header nav ul a:hover {
+    color: #ffffff;
+}
+
+#blog-main {
+    background-color: #efefee;
+    padding: 85px 90px 80px 90px;
+}
+
+.column1 {
+    float: left;
+}
+
+.article1,
+.article2 {
+    max-width: 700px;
+    padding: 0 0 0 30px;
+}
+
+article img {
+    margin: 0 0 32px 0;
+}
+
+p {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: left;
+    color: #606161;
+    margin: 0;
+}
+
+.article1 p:first-letter,
+.article2 p:first-letter {
+    font-weight: 600;
+    font-size: 78px;
+    line-height: 1;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+article .readmore {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: right;
+    color: #043049;
+    margin: 60px 0 0 0;
+}
+
+.readmore a {
+    text-decoration: none;
+    color: #043049;
+}
+
+.readmore a:hover,
+.aside1 a:hover,
+.aside2 a:hover {
+    color: #606161;
+}
+
+main hr {
+    margin: 40px 0 40px 0;
+    border-color: #043049;
+}
+
+aside {
+    max-width: 240px;
+    padding: 0 0 0 20px;
+    float: left;
+}
+
+h3 {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: left;
+    color: #043049;
+    margin: 0 0 15px 0;
+}
+
+.aside1 ul {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.aside1 ul li a {
+    text-decoration: none;
+    color: #043049;
+}
+
+.aside1,
+.aside2 {
+    margin: 0 0 45px 0;
+}
+
+.aside2 p {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: #043049;
+}
+
+.aside2 a {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    text-decoration: none;
+    color: #043049;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
 
 /*
  * Hide visually and from screen readers
@@ -423,6 +457,7 @@ footer p {
 .hidden {
     display: none !important;
 }
+
 
 /*
  * Hide only visually, but have it available for screen readers:
@@ -440,6 +475,7 @@ footer p {
     width: 1px;
 }
 
+
 /*
  * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
@@ -456,6 +492,7 @@ footer p {
     width: auto;
 }
 
+
 /*
  * Hide visually and from screen readers, but maintain layout
  */
@@ -463,6 +500,7 @@ footer p {
 .invisible {
     visibility: hidden;
 }
+
 
 /*
  * Clearfix: contain floats
@@ -478,13 +516,16 @@ footer p {
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
 }
 
 .clearfix:after {
     clear: both;
 }
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -497,11 +538,12 @@ footer p {
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
+
 
 /* ==========================================================================
    Print styles.
@@ -516,66 +558,55 @@ footer p {
     *:first-letter,
     *:first-line {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
+        color: #000 !important;
+        /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
     a,
     a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-
     /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
     a[href^="#"]:after,
     a[href^="javascript:"]:after {
         content: "";
     }
-
     pre,
     blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
     /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
     thead {
         display: table-header-group;
     }
-
     tr,
     img {
         page-break-inside: avoid;
     }
-
     img {
         max-width: 100% !important;
     }
-
     p,
     h2,
     h3 {
         orphans: 3;
         widows: 3;
     }
-
     h2,
     h3 {
         page-break-after: avoid;
